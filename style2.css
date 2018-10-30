@@ -1,0 +1,83 @@
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30vw;
+    font-style: italic;
+    line-height: 21vw;
+}
+
+.bg-catridge-gray {
+    background-color: #BBBBBB;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    color: #5A5A5A;
+    display: block;
+    text-align: center;
+    
+}
+
+.sidenav {
+    width: 60px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 1.4%; /* Stay at the top */
+    right: 6%;
+    background-color: #BBBBBB; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.navbar {
+    height: 38px;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Century Gothic', sans-serif;
+    color: #5A5A5A;
+    background-color: #BBBBBB;
+    font-weight: bold;
+    text-indent: -5px;
+    width:150px;
+    margin-left: 0;
+    position: fixed;
+    z-index: 1;
+    top: 1.4%;
+    left: 6%;
+}
+
+.navbar-nav{
+    background-color: #BBBBBB;
+    
+}
+
+.carousel-item {
+    opacity: 0;
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: #5A5A5A;
+    overflow-x: hidden;
+}
+
+.overlay { 
+    color:#fff;
+    position: absolute;
+    z-index:12;
+    bottom:-20px;
+    left:0;
+    width:100%;
+    text-align:right;
+}
