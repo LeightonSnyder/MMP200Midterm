@@ -2,7 +2,73 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30vw;
     font-style: italic;
-    line-height: 21vw;
+    line-height: 20vw;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Press Start 2P', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    background-color: #BBBBBB;
+    color: #5A5A5A;
+    position: absolute;
+    z-index: 6;
+    margin-top: 120px;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 1.9;
+}
+
+p {
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #BBBBBB;
+    line-height:0.9;
+}
+
+p b {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 130px;
+    
+}
+
+p c {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+
+@media screen and (min-width: 850px) {
+  .main_block {
+     margin-top: 70px;
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  p c {
+      font-size:100px;
+  }
+}
+
+p bb{
+    font-style: italic;
+}
+
+.main_block {
+    background-color: #5A5A5A;
+    position: absolute;
+    z-index: 5;
+    opacity:0.95;
+    max-width: 800px;
+    padding-top:150px;
+    margin-top:;
+    right:0;
+    left:0;
 }
 
 .bg-catridge-gray {
@@ -19,22 +85,29 @@ h1 {
     color: #5A5A5A;
     display: block;
     text-align: center;
-    
+
 }
 
 .sidenav {
-    width: 60px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 1.4%; /* Stay at the top */
+    width: 50px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    top: 1.4%;
+    /* Stay at the top */
     right: 6%;
-    background-color: #BBBBBB; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+    background-color: #BBBBBB;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar {
     height: 38px;
+    position: absolute;
+    z-index: 9;
 }
 
 .navbar .navbar-brand {
@@ -42,22 +115,20 @@ h1 {
     color: #5A5A5A;
     background-color: #BBBBBB;
     font-weight: bold;
-    text-indent: -5px;
-    width:150px;
+    text-indent: -1px;
+    width: 150px;
     margin-left: 0;
-    position: fixed;
-    z-index: 1;
     top: 1.4%;
     left: 6%;
+    position: fixed;
 }
 
-.navbar-nav{
+.navbar-nav {
     background-color: #BBBBBB;
-    
 }
 
 .carousel-item {
-    opacity: 0;
+    position: fixed;
     height: 100vh;
     min-height: 350px;
     background: no-repeat center center scroll;
@@ -72,12 +143,47 @@ body {
     overflow-x: hidden;
 }
 
-.overlay { 
-    color:#fff;
+.overlay {
+    color: #fff;
+    position: fixed;
+    z-index: 12;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+
+
+}
+
+.overlay2 {
+    color: #5A5A5A;
     position: absolute;
-    z-index:12;
-    bottom:-20px;
-    left:0;
-    width:100%;
-    text-align:right;
+    background-color: #BBBBBB;
+    bottom: 45%;
+    left: 15%;
+    text-align: left;
+    width: 330px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Press Start 2P', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    z-index: 12;
+}
+
+.iconBoi {
+    width: 20px;
+    padding-bottom: 5px;
+}
+
+.iconBoi2 {
+    width: 25px;
+}
+
+.iconBoi3 {
+    width: 20px;
+}
+
+.iconBoi4 {
+    width:115px;
+    object-fit: none;
 }
